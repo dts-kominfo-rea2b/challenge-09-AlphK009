@@ -6,9 +6,9 @@ import './Contact.css';
 const Contact = () => {
     return (
         <>
-        {contacts?.map(contact => ( 
+        {contacts?.map((contact, index) => ( 
             <div className='container'>
-            <div className="contact-card">
+            <div className="contact-card" key={index}>
                 <img className="contact-image" src={contact.photo} alt={contact.name}/>
                 <div className="contact-info">
                     <h3 className='contact-name'>{contact.name}</h3>

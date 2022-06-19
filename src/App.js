@@ -9,10 +9,7 @@ const App = () => {
   // Masukkan Header dan Contact ke dalam div App
   return (
     <div className="App">
-      <Header
-      title={"Call a Friend"}
-      subTitle={"your friendly contact app"}
-      />
+      <Header/>
       <Contact/>
     </div>
   );

@@ -5,8 +5,8 @@ import './Header.css';
 const Header = ({title, subTitle}) => {
     return (
         <>
-        <h1 className='title'>{title}</h1>
-        <h3 className='subtitle'>{subTitle}</h3>
+        <h1 className='title'>Call a Friend</h1>
+        <h3 className='subtitle'>Your Friendly Contact App</h3>
         <hr/>    
         </>
     )
