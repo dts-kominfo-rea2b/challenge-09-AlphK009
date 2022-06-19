@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    border: 3px dotted rgb(213, 15, 15);
+    width: 50%;
+}
