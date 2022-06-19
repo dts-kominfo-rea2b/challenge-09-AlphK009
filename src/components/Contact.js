@@ -7,7 +7,7 @@ const Contact = (props) => {
         <>
             <div className='container'>
             <div className="contact-card">
-                <img className="contact-image" src={props.contact.photo} alt={"name"}/>
+                <img className="contact-image" src={props.contact.photo} alt={props.contact.name}/>
                 <div className="contact-info">
                     <h3 className='contact-name'>{props.contact.name}</h3>
                     <p className='contact-number'>{props.contact.phone}</p>
