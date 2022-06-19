@@ -7,10 +7,10 @@ const Contact = () => {
     return (
         <>
         {contacts?.map((contact, index) => ( 
-            <div className='container' key={index}>
+            <div className='container'>
             <div className="contact-card" key={index}>
                 <img className="contact-image" src={contact.photo} alt={contact.name} key={index}/>
-                <div className="contact-info" key={index}>
+                <div className="contact-info">
                     <h3 className='contact-name' key={index}>{contact.name}</h3>
                     <p className='contact-number' key={index}>{contact.phone}</p>
                     <p className='contact-email' key={index}>{contact.email}</p>
