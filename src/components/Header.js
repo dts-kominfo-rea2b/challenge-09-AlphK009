@@ -2,7 +2,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header = ({title, subTitle}) => {
+const Header = () => {
     return (
         <>
         <h1 className='title'>Call a Friend</h1>
