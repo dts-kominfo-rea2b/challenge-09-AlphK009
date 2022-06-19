@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Contact from './components/Contact';
@@ -11,7 +12,9 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
+      <div className='contact-wrapper'>
       {contacts.map(contact => <Contact key={contact.email} contact={contact}/>)}
+      </div>
     </div>
   );
 }
